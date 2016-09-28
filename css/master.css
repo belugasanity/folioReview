@@ -1,0 +1,237 @@
+/*colors -----RED--#AF3925------BLUE--#00354E------TAN--#F9E2A5-----TEAL--#6E9897-----*/
+@font-face{
+    font-family: CastIron;
+    src: url(../fonts/CastIron-Condensed.otf);
+}
+@font-face{
+    font-family: QuanReg;
+    src: url(../fonts/Quan-Regular.ttf);
+}
+@font-face{
+    font-family: Authority;
+    src: url(../fonts/authority-regular-webfont.ttf);
+}
+body{
+    font-family: QuanReg, Helvetica, Arial;
+    font-size:1.3rem;
+    background: #AF3925;
+}
+.red-text1{
+    color: #AF3925 !important;
+}
+.myName{
+    font-family: Authority;
+    font-size: 1.7rem !important;
+    padding-left:15px;
+}
+.myName a, .myName a:visited, .myName a:active{
+    color:#000;
+}
+.myName a:hover{
+    color: #00354e;
+}
+.header{
+    background-color: #fff !important;
+    height:125px;
+    padding:0;
+    border-bottom:solid 2px #AF3925;
+}
+nav{
+    position:fixed;
+    height: 75px !important;
+    padding-left:10px;
+    padding-top:5px;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-family: QuanReg;
+    font-size: 1.2rem !important;
+}
+nav ul li a{
+    color:#00354E;
+    font-size: 1.2rem !important;
+}
+nav ul li a:hover{
+    color:#00354E;
+    border-bottom: solid 6px #00354e;
+    text-decoration: none;
+}
+nav ul li a.activePage{
+    border-bottom: solid 4px #00354e;
+}
+.header nav{
+    margin-top:-45px;
+}
+.hbanner{
+    background:url(../img/homebanner.jpg) no-repeat;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.hbanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+.wbanner{
+    background:url(../img/wbanner.jpg) no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.wbanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+.gbanner{
+    background:url(../img/gbanner.jpg) no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.gbanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+.vbanner{
+    background:url(../img/vbanner.jpeg) no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.vbanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+.abanner{
+    background:url(../img/abanner.jpg) no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.abanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+.cbanner{
+    background:url(../img/cbanner.jpg) no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 450px;
+    margin-top: -71px !important;
+}
+.cbanner .container p{
+    text-align: center;
+    color: #fff;
+    font-family: CastIron, helvetica;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-top:50px;
+    text-transform: uppercase;
+}
+#map{
+    width: 100%;
+    height:450px;
+}
+.section .container h4{
+    font-family:CastIron;
+    font-size:3rem;
+}
+.section:nth-child(3){
+    background: #fff;
+}
+.section:nth-child(4){
+    background:rgb(249,226,165);
+}
+footer .container .row .col.s6:last-child{
+    text-align: right;
+}
+footer{
+    background: #AF3925;
+    font-family: QuanReg;
+    font-size: 1.2rem;
+}
+footer .container .row{
+    margin-bottom: 0;
+}
+footer .container .row .col.s6 a{
+    color:#fff;
+}
+footer .container .row .col.s6 a:visited{
+    color:#fff;
+}
+footer .container .row .col.s6 a:hover{
+    color:#01354E;
+}
+.card .card-action a:hover{
+    color:#01354E !important;
+}
+.card .card-action a{
+    color:#AF3925 !important;
+}
+.card{
+    font-family: QuanReg;
+}
+.card .card-image span.card-title{
+    color:#fff;
+}
+nav .button-collapse{
+    float:right !important;
+    margin-right:10px;
+}
+.card-action a{
+    font-size: 1rem;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:600px){
+    .video-container iframe:last-child, .video-container object:last-child, .video-container embed:last-child{
+        margin-top:15px;
+    }
+    #vidPage .row{
+        padding-top:0px;
+        margin-top:0px;
+        margin-bottom: 8px;
+    }
+}
